@@ -32,7 +32,7 @@ std::string get_leak_string(std::string s) {
 	return s.substr(++idx, edx - 101);
 }
 
-int leaks_test(pid_t pid) {
+int leaks_test(std::string test_name, pid_t pid) {
 	string a = "leaks ";
 	a += std::to_string(static_cast<int>(pid));
 	usleep(50);
@@ -43,6 +43,10 @@ int leaks_test(pid_t pid) {
 		return (0);
 	}
 	else {
+		std::ofstream ofs("../../leaks.log", std::ios::out | std::ios::app);
+		ofs << "[[" << test_name << "]]" << std::endl;
+		ofs << s << std::endl;
+		ofs << s << std::endl;
 	    printElement(REDD + "LEAKS" + RESET);
 	    return (1);
 	}
@@ -71,4 +75,3 @@ int run_bool_unit_test(std::string test_name, bool (func1)()) {
 
     return ret;
 }
-
