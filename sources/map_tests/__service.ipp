@@ -69,6 +69,15 @@ int run_map_unit_test(std::string test_name, std::vector<int> (func1)(std::map<T
 	}
 	else {
 	    printElement("FAILED");
+		std::ofstream ofs("../../map_failed.log", std::ios::out | std::ios::app);
+		ofs << "[[map/" << test_name << "]]" << std::endl;
+		ofs << "EXPECTED: " << std::endl;
+		for (std::vector<int>::iterator it = res1.begin(); it != res1.end(); ++it)
+			ofs << " " << *it << std::endl;
+		ofs << "YOUR RESULT: " << std::endl;
+		for (std::vector<int>::iterator it = res2.begin(); it != res2.end(); ++it)
+			ofs << " " << *it << std::endl;
+		ofs << std::endl;
 	    result = 1;
 	}
 	t1 = g_end1 - g_start1, t2 = g_end2 - g_start2;

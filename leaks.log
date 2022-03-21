@@ -1,0 +1,169 @@
+[[assign overload]]
+Process 8048: 20 leaks for 1280 total leaked bytes.
+
+    20 (1.25K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd3094063f0> [64]
+       19 (1.19K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd309406430> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fd3094063f0> [64]
+          17 (1.06K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd3094064b0> [64]
+             13 (832 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd3094065b0> [64]
+                12 (768 bytes) ROOT CYCLE: <ft::Node<ft::pair
+Process 8048: 20 leaks for 1280 total leaked bytes.
+
+    20 (1.25K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd3094063f0> [64]
+       19 (1.19K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd309406430> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fd3094063f0> [64]
+          17 (1.06K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd3094064b0> [64]
+             13 (832 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fd3094065b0> [64]
+                12 (768 bytes) ROOT CYCLE: <ft::Node<ft::pair
+[[iterators]]
+Process 8054: 5 leaks for 320 total leaked bytes.
+
+    5 (320 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405d10> [64]
+       4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405d50> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fc98d405d10> [64]
+          3 (192 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405dd0> [64]
+             1 (64 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405d90> [64]
+             1 (64 bytes) ROOT CYCLE: <ft::Node<ft::pa
+Process 8054: 5 leaks for 320 total leaked bytes.
+
+    5 (320 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405d10> [64]
+       4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405d50> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fc98d405d10> [64]
+          3 (192 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405dd0> [64]
+             1 (64 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fc98d405d90> [64]
+             1 (64 bytes) ROOT CYCLE: <ft::Node<ft::pa
+[[compare class]]
+Process 8067: 29 leaks for 1856 total leaked bytes.
+
+    29 (1.81K) << TOTAL >>
+
+      10 (640 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe93406650> [64]
+         4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe934066d0> [64]
+            CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7ffe93406650> [64]
+            2 (128 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe93406790> [64]
+               1 (64 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe934067d0> [64]
+            1 (
+Process 8067: 29 leaks for 1856 total leaked bytes.
+
+    29 (1.81K) << TOTAL >>
+
+      10 (640 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe93406650> [64]
+         4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe934066d0> [64]
+            CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7ffe93406650> [64]
+            2 (128 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe93406790> [64]
+               1 (64 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7ffe934067d0> [64]
+            1 (
+[[at()]]
+Process 8096: 70 leaks for 4480 total leaked bytes.
+
+    70 (4.38K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c058b0> [64]
+       69 (4.31K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c058f0> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fda35c058b0> [64]
+          67 (4.19K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c05970> [64]
+             63 (3.94K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c05a70> [64]
+                55 (3.44K) ROOT CYCLE: <ft::Node<ft::pair<int con
+Process 8096: 70 leaks for 4480 total leaked bytes.
+
+    70 (4.38K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c058b0> [64]
+       69 (4.31K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c058f0> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fda35c058b0> [64]
+          67 (4.19K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c05970> [64]
+             63 (3.94K) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fda35c05a70> [64]
+                55 (3.44K) ROOT CYCLE: <ft::Node<ft::pair<int con
+[[empty()]]
+Process 8109: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fa633405920> [64]
+
+
+Process 8109: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fa633405920> [64]
+
+
+[[erase(InputIt)]]
+Process 8148: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7f8929c06550> [64]
+
+
+Process 8148: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7f8929c06550> [64]
+
+
+[[swap()]]
+Process 8173: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fe4ba405f50> [64]
+
+
+Process 8173: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fe4ba405f50> [64]
+
+
+[[count()]]
+Process 8197: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7ffed3c05920> [64]
+
+
+Process 8197: 1 leak for 64 total leaked bytes.
+
+    1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7ffed3c05920> [64]
+
+
+[[lower_bound()]]
+Process 8210: 6 leaks for 384 total leaked bytes.
+
+    6 (384 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd064059e0> [64]
+       5 (320 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd06405b60> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fcd064059e0> [64]
+          4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd06405be0> [64]
+             2 (128 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd06405c20> [64]
+                1 (64 bytes) ROOT CYCLE: <ft::Node<ft
+Process 8210: 6 leaks for 384 total leaked bytes.
+
+    6 (384 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd064059e0> [64]
+       5 (320 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd06405b60> [64]
+          CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fcd064059e0> [64]
+          4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd06405be0> [64]
+             2 (128 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fcd06405c20> [64]
+                1 (64 bytes) ROOT CYCLE: <ft::Node<ft
+[[upper_bound()]]
+Process 8217: 7 leaks for 448 total leaked bytes.
+
+    7 (448 bytes) << TOTAL >>
+
+      6 (384 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc059e0> [64]
+         5 (320 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc05b60> [64]
+            CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fe84dc059e0> [64]
+            4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc05be0> [64]
+               2 (128 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc05c20> [64]
+            
+Process 8217: 7 leaks for 448 total leaked bytes.
+
+    7 (448 bytes) << TOTAL >>
+
+      6 (384 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc059e0> [64]
+         5 (320 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc05b60> [64]
+            CYCLE BACK TO <ft::Node<ft::pair<int const, int> > 0x7fe84dc059e0> [64]
+            4 (256 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc05be0> [64]
+               2 (128 bytes) ROOT CYCLE: <ft::Node<ft::pair<int const, int> > 0x7fe84dc05c20> [64]
+            
+[[key_comp()]]
+Process 8233: 2 leaks for 128 total leaked bytes.
+
+    2 (128 bytes) << TOTAL >>
+      1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fb81f4058d0> [64]
+      1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fb81f405910> [64]
+
+
+Process 8233: 2 leaks for 128 total leaked bytes.
+
+    2 (128 bytes) << TOTAL >>
+      1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fb81f4058d0> [64]
+      1 (64 bytes) ROOT LEAK: <ft::Node<ft::pair<int const, int> > 0x7fb81f405910> [64]
+
+

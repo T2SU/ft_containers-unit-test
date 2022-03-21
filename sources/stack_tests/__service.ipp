@@ -42,6 +42,15 @@ int run_stack_unit_test(std::string test_name, std::vector<int> (func1)(std::sta
 	    result = 0;
 	}
 	else {
+		std::ofstream ofs("../../stack_failed.log", std::ios::out | std::ios::app);
+		ofs << "[[stack/" << test_name << "]]" << std::endl;
+		ofs << "EXPECTED: " << std::endl;
+		for (std::vector<int>::iterator it = res1.begin(); it != res1.end(); ++it)
+			ofs << " " << *it << std::endl;
+		ofs << "YOUR RESULT: " << std::endl;
+		for (std::vector<int>::iterator it = res2.begin(); it != res2.end(); ++it)
+			ofs << " " << *it << std::endl;
+		ofs << std::endl;
 	    printElement("FAILED");
 	    result = 1;
 	}
